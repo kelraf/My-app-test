@@ -81,8 +81,5 @@ class UserBucketlist():
                 return "Bucketlist deleted successfully"
         else:
             return "The bucketlistname you provided does not exist in your account"    
-    
-
-# if __name__ == "__main__":
-#     run()              
+               
                         
