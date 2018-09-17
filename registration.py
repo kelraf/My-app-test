@@ -94,24 +94,4 @@ class UserDetails(object):
         else:
             return "You cannot reset password because username and password or both are not details of any user in the program"    
 
-    
-def run():
-    Rafael = UserDetails() 
-
-    response = Rafael.register("kelraf", "rafwambugu@gmail.com", "kelraf11746", "kelraf11746")  
-    print(response)
-
-    response1 = Rafael.register("kelvin", "kelwambugu@gmail.com", "kelraf11747", "kelraf11747")  
-    print(response1)
-
-    response3 = Rafael.register("kelvinr", "kelrwambugu@gmail.com", "kelraf11747", "kelraf11747")
-    print(response3)
-
-    response2 = Rafael.login("kelvinr", "kelraf11747")
-    print(response2)
-
-    response4 = Rafael.reset_password("kelvin", "kelraf11747", "kelraf11749")
-    print(response4) 
-
-if __name__ == "__main__":
-    run()                    
+                     
